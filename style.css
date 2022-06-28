@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-brand img{
+    height: 2cm;
+    width: 2.5cm;
+}
+.carousel-item img{
+    height: 12cm;
+    width: 15cm;
+}
+body{
+    background-size: cover;
+}
+.explorekerala{
+    text-align: center;
+    font-family: cursive;
+}
+.about{
+    font-family: cursive;
+}
+.come{
+    font-family: cursive;
+    text-align: center;
+}
+
+.navbar{
+    font-family: cursive;
+    font-size: larger;
+}
+.nav-link{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.cards{
+    width: 25%;
+    display: inline-block; 
+    background-color: white;
+    border-radius: 5px;
+    margin: 60px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 6cm;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.des{
+    text-align: center;
+    padding: 4px;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+.footer{
+    text-align: center;
+    color: gray;
+}
+

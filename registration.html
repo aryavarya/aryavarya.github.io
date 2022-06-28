@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register here</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+
+
+
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+          <table>
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td><input type="text" name="name" id="name" placeholder="Name"></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="text" name="email" id="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password:</label></td>
+              <td><input type="password" name="password" id="password"></td>
+            </tr>
+           
+            <tr>
+              <td><label for="phoneNumber">Phone Number:</label></td>
+              <td><input type="text" name="phoneNumber" id="phoneNumber"></td>
+            </tr>
+          
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    <!-- JavaScript Bundle with Popper -->
+      <script src="reg.js"></script>
+</body>
+</html>
